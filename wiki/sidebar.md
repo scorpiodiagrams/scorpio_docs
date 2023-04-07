@@ -140,7 +140,7 @@ Datascience explainers - relating machine learning to statistics, optimisation, 
 Structure and Interpretaion of Classical Mechanics.
 Book by *Gerald Jay Sussman and Jack Wisdom*
 )
-#Jump( scorpio;index \Rock Scorpio Diagrams
+#Jump( scorpio_docs;scorpio_diagrams \Rock Scorpio Diagrams
 # \Boat Scorpio Diagrams Repo
 This repo, with beginnings of documentation on the Scorpio diagram features)
 #Jump( scorpio_wiki;index \Rock Scorpio Wiki

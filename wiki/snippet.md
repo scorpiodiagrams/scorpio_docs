@@ -11,7 +11,7 @@ Most of this snippet is taken up with the diagram spec itself.
 &lt;html lang="en"&gt;
   &lt;head&gt;
     &lt;meta charset="utf-8"&gt;
-    &lt;script data-cfasync="false" src="http://www.scorpiodiagrams.com/scorpio/jsloader.js"&gt;&lt;/script&gt;
+    &lt;script data-cfasync="false" src="http://www.scorpiodiagrams.com/js2/jsloader.js"&gt;&lt;/script&gt;
     &lt;script type="text/javascript"&gt;
 
       // Load the modules you'll be using...
