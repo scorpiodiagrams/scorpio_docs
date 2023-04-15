@@ -12,9 +12,11 @@ $$\nabla \times \mathbf{F} = \frac{i}{c}\left( \frac{\partial \mathbf{F}}{\parti
 boxed: 80
 :A: at: 60,15
 !!Markdown
-## Principal Differences
+## Principal Differences to LaTeX
 
-JaTeX does not maintain LaTeX's layout rules. You will get different layout from JaTeX and LaTeX. JaTeX does not encompass the full set of LaTeX capabilities either. JaTeX can't be used for print documents. 
+JaTeX is nothing like as complete and comprehesive as LaTeX. Think of it more as a place for experimenting with variations on LaTeX. 
+
+JaTeX does not maintain LaTeX's layout rules. You will get different layout from JaTeX and LaTeX. JaTeX can't be used for print documents. 
 
 Some of the other differences between JaTeX and LaTeX that matter the most will get fixed in due course.
 #Example(

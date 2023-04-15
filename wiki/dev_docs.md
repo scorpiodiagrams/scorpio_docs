@@ -4,13 +4,13 @@
 ### Mini Graphs
 The `\graph` command, also `\half-graph` and `\quarter-graph` for narrower versions, draws small graphs. You specify y values for x=0 and x=1 and also slopes after the command. You can string a number of these together to make a longer graph. The slopes are usually given using `/`, `\ ` and `=` for +1, -1 and 0 slopes. For example `\graph 1\1/` is 1 at 0 and 1, dips down then rises. 
 
-> [!info]- Extended Syntax
+> [!info]- Extended Syntax for \graph
 You can instead use a slightly different syntax and separate the various components with a `:`. With that syntax you can use numbers for the slopes rather than the symbols. That's the way to get slopes other than +1, -1 and 0. `\graph 0.5:0.1:0.5:-0.1` is a graph at height 0.5 with a very slight rise in the middle.
 
 The `\graph` command can give many more points on the curve. `\graph 0.5/0.5\0.5/0.5\0.5/0.5\0.5/0.5\` is an undulating graph at an average value of 0.5.
 )
 
-> [!info]- \UFO Future plans
+> [!info]- \UFO Future plans for \graph
 > There's a much extended syntax in the works that gives more what you'd expect from a plotting library. It's not high priority because there are already good tools for doing graphs.)
 
 The mini graphs are for very quick illustrations, such as ReLU, a cumulative distribution, Hermite polynomials in blending, illustration of square wave, triangular wave, sine wave, and so on.
@@ -133,7 +133,7 @@ bounding_boxes:
 ~~~Polyglot
 
 ### Rulers
-`\ruler` is a widget that can be zoomed continuously.
+`\ruler` is a widget that can be zoomed continuously. Well, it \Boat could be. I need to restore that functionality. Here is how it looks.
 
 !!Scorpio
 ##Annotated
