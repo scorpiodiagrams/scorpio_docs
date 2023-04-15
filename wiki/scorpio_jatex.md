@@ -14,25 +14,26 @@ boxed: 80
 !!Markdown
 ## Principal Differences to LaTeX
 
-JaTeX is nothing like as complete and comprehesive as LaTeX. Think of it more as a place for experimenting with variations on LaTeX. 
+JaTeX is nothing like as complete and comprehesive as LaTeX. Think of it more as a place where I'm experimenting with variations on LaTeX. 
 
 JaTeX does not maintain LaTeX's layout rules. You will get different layout from JaTeX and LaTeX. JaTeX can't be used for print documents. 
 
-Some of the other differences between JaTeX and LaTeX that matter the most will get fixed in due course.
+Some of the differences between JaTeX and LaTeX that matter the most: 
 #Example(
-* #Code(^) and #Code(_) aren't quite working yet. One example of this is that if you need both on the same symbol, you should use JaTeX's #Code(\supsub) instead. 
-* JaTeX's subscripts and superscripts with #Code(\sum) places limits alongside the sum, rather than above and below.
-* Currently the rather messy #Code(\) is used to add a small space. Unfortunately it is needed rather too much at the moment as a workaround for when the spacing JaTeX makes is too tight.
-* Many symbols not yet supported
+* #Code(^) and #Code(_) aren't quite working yet: 
+** If you need both on the same symbol, you should use JaTeX's #Code(\supsub) instead. 
+** JaTeX's subscripts and superscripts with #Code(\sum) places limits alongside the sum, rather than above and below.
+* Currently the rather messy #Code(\) is used to add a small space. Unfortunately it is needed too much - as a workaround for when the spacing JaTeX makes is too tight.
+* Many symbols are not yet supported
 * No support for matrices
 * No support for #Code(&) for alignment
 )End#
 !!Polyglot
 
-> [!info]- #UFO(Plans) for LaTeX with JaTeX
+> [!info]- \UFO Plans for LaTeX with JaTeX
 
 * Some time I will improve on JaTeX for print, but it is not an urgent focus of development work, since LaTeX and its tools already covers print well. JaTeX is meant for web use.
-* JaTeX has many small extensions relative to LaTeX, and many omissions. Many of the JaTeX extensions and infelicities in layout could be handled by generating LaTeX from JaTeX. The extensions such as `\twisty` and `\tensor-sensor` would then be handled as tikz LaTeX macros.
+* JaTeX has many small extensions relative to LaTeX, and many omissions. The extensions could be ported form JaTeX to LaTeX. The extensions such as `\twisty` and `\tensor-sensor` would then be handled as tikz LaTeX macros.
 !!Markdown
 
 ## More Symbols
