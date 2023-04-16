@@ -36,13 +36,6 @@ Information-rich diagrams in biochemistry, electronics and computing present inf
 
 If we make families of related diagrams, this reduces the overall work in making them. It is also good for consistency. Tools to make such diagrams help them to look and behave in a consistent way.
 
-> [!info]- Diagrams for Education
-### Consistency is Good?
-
-Consistency is great for reference material. On its own it is not wonderful for memorable content. The diagrams could be boring, too similar to each other. I wanted diagrams that are easy to make *and* that I can easily customise with hand crafted details. These added details act as visual landmarks. The diagrams become more useful for learning from, not just as reference material. Without customisation, there would be too big a quality gap between automatic and hand-crafted diagrams.  
-
-Maintaining a balance between automated structure and hand crafted detail is hard. It's a particular problem when the underlying information behind a diagram is updated. I'm trying to solve that problem so that information rich *educational* diagrams become easier to make.)
-
 ### More about 'How'
 
 > [!info]- Diagram Forge

@@ -48,6 +48,9 @@ Maths formulae in Scorpio)
 #Jump( scorpio_jrefs \Diamond  JRefs
 # \Diamond JRefs
 Referencing the parts of a JaTeX formula)
+#Jump( scorpio_spec_summary \Diamond Summary
+# \Diamond Summary
+List of all commands)
 ----
 ### Resources
 #Jump( downloads \Diamond Downloads
@@ -65,9 +68,14 @@ Discussion groups and support)
 #Jump( more_examples \Diamond More Examples
 # \Diamond More Examples
 Additional editable diagrams, as examples)
-#Jump( scorpio_spec_summary \Diamond Summary
-# \Diamond Summary
-List of all commands)
+----
+### Documents
+#Jump( scorpio_md_overview \Diamond Markdown Overview
+# \Diamond Markdown Overview
+The markdown used with Scorpio Diagrams)
+#Jump( scorpio_md_table \Diamond Markdown Summary
+# \Diamond Markdown Summary
+Summary of the markdown)
 ----
 ### Future Plans
 #Jump( dev_for_wikipedia \UFO Wikipedia
@@ -87,7 +95,7 @@ A dangerous future with human-AI combinations. The Center for Safer Centaurs, wo
 #Jump( datascience;autoencoder \Diamond Datascience
 # \Diamond Datascience Repo
 Datascience explainers - relating machine learning to statistics, optimisation, classical mechanics and coding theory.)
-#Jump( sicm;preface \Diamond SICM
+#Jump( sicm;preface \Diamond SICM Book
 # \Diamond SICM - The Book
 Structure and Interpretaion of Classical Mechanics.
 Book by *Gerald Jay Sussman* and *Jack Wisdom*

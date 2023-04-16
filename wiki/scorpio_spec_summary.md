@@ -135,6 +135,280 @@ The text of the card ends with the next #Code(:) containing command.
 
 #Button(scorpio_cards,Info Cards) - Examples of information cards in action.
 
+## Tables of JaTeX
+These tables are generated from the JaTeX code. The functions are organsied as follows:
+!!Polyglot
+```
+Macro -       These get translated into other commands. For 
+              example \ReLU gets translated into a specific
+              \graph
+Settings -    Merely change values, for example default sizes.
+Tile -        Is for the shape of labels.
+SvgSymbols -  Are some pre-built extra symbols.
+Transform -   Rotate or mirror the next item.
+FontHandler - For switching fonts
+Stretcher -   Difficult vari-sized symbols, like brackets and 
+              integral. Symbols that are not 'straight from 
+              the font'.
+Stack -       Manages \frac and other equal-spacing layouts.
+Graph -       Mini graphs
+```
+
+### JaTeX Functions
+These have some code behind them to read arguments and format them.
+```Raw
+\ReLU - Macro
+\align-frac - Settings
+\antisway - Tile
+\arrow-head - Tile
+\arrow-head-flip - Tile
+\arrow-tail - Tile
+\arrow-tail-flip - Tile
+\backward - Tile
+\backward-flip - Tile
+\battery - SvgSymbols
+\box - Tile
+\capacitor - SvgSymbols
+\chevron - Tile
+\chevron-flip - Tile
+\cold-front - Tile
+\cold-front-flip - Tile
+\dynamic-conv - Macro
+\flip - Transform
+\fliph - Transform
+\flipminor - Transform
+\flipv - Transform
+\forward - Tile
+\forward-flip - Tile
+\frac - Frac
+\graph - Graph
+\grid - Macro
+\half-graph - Graph
+\hstack - Stack
+\huge - FontHandler
+\id1 - Macro
+\id2 - Macro
+\id3 - Macro
+\id4 - Macro
+\identity - Transform
+\invert - FontHandler
+\kbd - FontHandler
+\left - Macro
+\low-box - Tile
+\macro - Macro
+\mathbb - FontHandler
+\mathbf - FontHandler
+\mathbig - FontHandler
+\mathital - FontHandler
+\mathitalsmall - FontHandler
+\mathitaltiny - FontHandler
+\mathsize3 - FontHandler
+\mbox - FontHandler
+\min-height - Settings
+\min-width - Settings
+\mul - Macro
+\overlay - Stack
+\paper-stack - Stack
+\quarter-graph - Graph
+\resistor - SvgSymbols
+\right - Macro
+\rot180 - Transform
+\rot270 - Transform
+\rot90 - Transform
+\round - Tile
+\round-flip - Tile
+\ruler - Ruler
+\shalf-graph - Graph
+\snake-head - Tile
+\snake-head-flip - Tile
+\snake-tail - Tile
+\snake-tail-flip - Tile
+\spaced-stack - Stack
+\stack - Stack
+\stack-left - Stack
+\stack-right - Stack
+\straight - Tile
+\straight-flip - Tile
+\stretch - Stretcher
+\stretch-brace - Stretcher
+\sub - Macro
+\sup - Macro
+\supsub - SupSub
+\surround - SupSub
+\sway - Tile
+\sway-flip - Tile
+\tensor-sensor1 - Macro
+\tensor-sensor2 - Macro
+\tensor-sensor3 - Macro
+\tile - Tile
+\tiny - FontHandler
+\transform - Transform
+\transistor - SvgSymbols
+\twisty - Twisty
+\twisty-height - Settings
+\twisty-spacing - Settings
+\twistyc - Twisty
+\twistyup - Twisty
+\warm-front - Tile
+\warm-front-flip - Tile
+\zagzig - Tile
+\zagzig-flip - Tile
+\zigzag - Tile
+\zigzag-flip - Tile
+^ - FontHandler
+_ - FontHandler
+```
+
+These are direct substitutions
+```Raw
++ -  + 
+- -  - 
+= -  = 
+\ -  
+\Delta - Δ
+\Gamma - Γ
+\Lambda - Λ
+\Omega - Ω
+\Phi - Φ
+\Pi - Π
+\Psi - Ψ
+\Rightarrow - ⇒
+\S - §
+\Sigma - Σ
+\Theta - Θ
+\Upsilon - Υ
+\Xi - Ξ
+\alpha - α
+\angle - ∠
+\approx -  ≈ 
+\ast - ∗
+\bar - ¯
+\because - ∵
+\beta - β
+\biohazard - ☣
+\bishop - ♝
+\bishopw - ♗
+\bot - ⊥
+\cap - ∩
+\cdot - ⋅
+\cdots - ⋅⋅⋅
+\chemequal -  ⇌ 
+\chemequal2 - ⇋
+\chi - χ
+\circ - ◦
+\cong -  ≅ 
+\cup - ∪
+\delta - δ
+\div - ÷
+\dna - 🧬
+\dot - ˙
+\ellipsis - ...
+\epsilon - ϵ
+\equiv -  ≡ 
+\eta - η
+\exists - ∃
+\forall - ∀
+\gamma - γ
+\geq -  ≥ 
+\hat - ^
+\idotsint -  ∫⋅⋅⋅∫ 
+\iiint -  ∭ 
+\iint -  ∬ 
+\imath - ı
+\in - ∈
+\infty - ∞
+\int -  ∫ 
+\iota - ι
+\jmat - ȷ
+\kappa - κ
+\king - ♚
+\kingw - ♔
+\knight - ♞
+\knightw - ♘
+\lambda - λ
+\left( - (
+\left-brace - {
+\left[ - [
+\left{ - {
+\leq -  ≤ 
+\mid - ∣
+\mp - ∓
+\mply - ×
+\mu - μ
+\nabla - ∇
+\neq -  ≠ 
+\nu - ν
+\ocirc - ⊚
+\ocog - ⚙
+\odot - ⊙
+\oempty - ◯
+\ofull - ⏺
+\oglow - ☀
+\oint -  ∮ 
+\omega - ω
+\ooint - ∯
+\oooint - ∰
+\oplus -  ⊕ 
+\ostar - ⊛
+\otimes -  ⊗ 
+\parallel - ∥
+\partial - ∂
+\pawn - ♟︎
+\pawnw - ♙
+\perp - ⊥
+\phi - ϕ
+\pi - π
+\pm - ±
+\poison - ☠
+\prec -  ≺ 
+\preceq - ⪯
+\preqeq -  undefined 
+\propto - ∝
+\psi - ψ
+\queen - ♛
+\queenw - ♕
+\radioactive - ☢
+\rho - ρ
+\right) - )
+\right-brace - }
+\right] - ]
+\rightarrow - →
+\right} - }
+\rook - ♜
+\rookw - ♖
+\ships-wheel - ⎈
+\sigma - σ
+\sim -  ∼ 
+\slash - \
+\sqempty - ◻
+\sqfull - ◼
+\sqrt - √
+\subset -  ⊂ 
+\subseteq -  ⊆ 
+\succ -  ≻ 
+\succeq -  ⪰ 
+\tau - τ
+\tdownempty - ▽
+\tdownfull - ▼
+\therefore - ∴
+\theta - θ
+\times -  × 
+\tupempty - △
+\tupfull - ▲
+\upsilon - υ
+\varepsilon - ε
+\varnothing - ∅
+\varphi - φ
+\varpi - ϖ
+\varrho - ϱ
+\varsigma - ς
+\vartheta - ϑ
+\vee - ∨
+\wedge - ∧
+\xi - ξ
+\zeta - ζ
+```
+!!Markdown
 ##Other commands and attributes
 
 Other commands work the same way as #Code(card:).
