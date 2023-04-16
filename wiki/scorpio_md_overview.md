@@ -35,7 +35,7 @@ I can do 'quote boxes' both left using #Code(>) and right using #Code(<). The id
 < And this is a right quote box.
 
 ## Sidebar
-The sidebar is 'just' a specially named markdown file, #Code(sidebar.md).
+The sidebar is a specially named markdown file, #Code(sidebar.md).
 
 A typical item in the sidebar looks like this:
 ```
@@ -46,10 +46,10 @@ Additional label styles, beyond the basics.)
 The above is providing a link to the file more_label_styles.md, with text with a blue diamond to the left. When you hover, the longer message appears.
 
 ## Book Features
-To format mathematical textbooks I trap some headings and hyperlinks and treat them specially.
+To format mathematical textbooks I capture some headings and hyperlinks and treat them specially.
 * #Hash#Hash#Hash Exercise gets an anchor as an exercise that can be linked to
 * #Hash Footnote(number) will link to a later #Hash FootnoteRef(number)
 * The \tag{number} within a KaTeX equation is used to detect numbered equations, which can be linked to using #Eqn
 
 ## Diagrams
-Diagrams are included by first providing a line !!Scorpio. The next lines can be the full diagram spec, or a link to the diagram spec.
+Diagrams are included using #Code(!!Scorpio). The next lines can be the full diagram spec, or a link to the diagram spec.

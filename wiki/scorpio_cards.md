@@ -75,13 +75,13 @@ These are small changes that make the info cards more usable.)
 > [!info]- The Info Button
 The diagrams have an info button that appears in the top left hand corner when you're hovered over the diagram. Hover over this info button for an additional info card with copyright information.)
 
-> [!info]- Scorpio uses Markdown
+> [!info]- Info Cards use Markdown
 
 ### Syntax 
-Scorpio Daiagrams uses different syntax for different parts of the diagrams. Most text is specified with Markdown. Equations use JaTeX, a LaTeX like syntax. 
+Scorpio Diagrams uses different syntax for different parts of the diagrams. Instructions for making the diagram often have a '#Code(:)'' after them. Equations use JaTeX, a LaTeX like syntax. 
 
-### Syntax for cards
-The spec shown below has syntax for specifying two labels and a link between them. The info cards are specified at the end. The text of the cards is in Markdown format.
+### Syntax for Info Cards
+The diagram spec shown below has syntax for specifying two labels and a link between them. The info cards are specified at the end. The text of the cards is in Markdown format.
 ```Raw
 ##LineArt
 :A: London

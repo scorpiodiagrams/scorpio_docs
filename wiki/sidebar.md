@@ -16,11 +16,14 @@ Information beside the diagram.)
 #Jump( scorpio_connections \Diamond  Connections
 # \Diamond Connections
 Connections in Scorpio. Connections can be styled in different ways.)
+#Jump( scorpio_embelishments \Diamond  Embelishments
+# \Diamond Embelishments
+Scorpio diagrams has a number of ways of embelishing the diagrams.)
 #Jump( scorpio_details_panel \Diamond Details Panel
 # \Diamond Details Panel
 Actions below the diagram.)
 ----
-### Making
+### Diagrams
 #Jump( diagram_making \Diamond Making Diagrams
 # \Diamond Making Diagrams
 How to create modify and style a diagram)
@@ -110,12 +113,9 @@ This repo, with documentation on the Scorpio diagrams software)
 #Jump( scorpio_dev;dev_docs \Diamond Scorpio Dev
 # \Diamond Scorpio Development
 New features under development)
-#Jump( scorpio_wiki;index \Diamond Scorpio Writer
-# \Diamond Scorpio Writer Repo
-Documentation of the Scorpio online books software. It's using markdown with extensions, and it uses Scorpio Diagrams for its diagrams.)
 #Jump( slush;index \Slush Slush
 # \Slush Slush Repo
-Slush pile. All that text and those diagrams that are on the way out. Only available in offline content-development mode.)
+Slush pile. All that text and those diagrams that are on the way out. This link is not available on-line. Only available in offline content-development mode.)
 
 
 

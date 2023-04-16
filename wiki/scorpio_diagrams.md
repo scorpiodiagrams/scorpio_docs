@@ -34,26 +34,25 @@ Info Cards are information boxes like this one that appear over your text or dia
 
 Information-rich diagrams in biochemistry, electronics and computing present information that can be explored visually, but they can be labour intensive to make.  
 
-If we make families of related diagrams, this reduces the overall work in making them. It is also good for consistency. Tools to make such diagrams help them to look and behave in a consistent way.
+If we make families of related diagrams, this reduces the overall work in making them. It is also good for consistency. Tools to make such diagrams make them easier to make and help the diagrams look and behave in a consistent way.
 
 ### More about 'How'
 
 > [!info]- Diagram Forge
+
 #### Modify Examples
-The easiest diagrams to make need little customisation.  These can be made online at the 'diagram forge'. You can look at an example of what raw information the diagram needs, and cut and paste your own version of that text in.
+The easiest diagrams to make are customisations of existing diagrams.  These can be made online at the 'diagram forge'. You can look at an example of what raw information the diagram needs, and cut and paste your own version of that text in.
 #Button(diagram_forge, Diagram Forge) - Examples to copy and modify
 #Button(more_examples,More Examples) - More examples to copy and modify)
 
 ### More about 'Features'
 
 > [!info]- Labels and Links
-> <h4>Labels and Links</h4>The diagrams are made from components connected together<br><br>#Button(scorpio_components, Components) - Brief list of the supported components.)
+> <h4>Labels and Links</h4>The diagrams are made from components connected together<br><br>#Button(scorpio_connections, Connections) - The labels and the links between them.<br>#Button(scorpio_embelishments, Embelishments) - Decorations and additional kinds of objects.)
 
 ### Reference
 
 > [!info]- Feature Summary
-For reference there's a brief one page summary:
-> <h4>Cheat Sheets</h4>Scorpio is at v0.1, and these specs are subject to change. I'm expecting though that the main features will be similar in future versions.<br><br>#Button(scorpio_spec_summary, Summary) - Syntax for 'things-connected-to-things' diagrams.) )
-
-
-
+For reference there's a one page document listing all the features:
+> <h4>Cheat Sheets</h4>Scorpio is at v0.1, and these specs are subject to change. I'm expecting though that the main features will be similar in future versions.<br><br>#Button(scorpio_spec_summary, Summary) - Syntax for 'things-connected-to-things' diagrams. 
+)
