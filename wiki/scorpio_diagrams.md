@@ -41,7 +41,7 @@ If we make families of related diagrams, this reduces the overall work in making
 > [!info]- Diagram Forge
 
 #### Modify Examples
-The easiest diagrams to make are customisations of existing diagrams.  These can be made online at the 'diagram forge'. You can look at an example of what raw information the diagram needs, and cut and paste your own version of that text in.
+The easiest diagrams to make are customisations of existing diagrams.  These can be made online at the 'diagram forge'. You can look at an example of what raw information the diagrams need, and cut and paste your own version of that text in.
 #Button(diagram_forge, Diagram Forge) - Examples to copy and modify
 #Button(more_examples,More Examples) - More examples to copy and modify)
 

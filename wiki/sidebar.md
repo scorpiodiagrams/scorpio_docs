@@ -59,9 +59,6 @@ List of all commands)
 #Jump( downloads \Diamond Downloads
 # \Diamond Downloads
 Where to get things from)
-#Jump( gitwrapping \Diamond GitWrap
-# \Diamond GitWrap
-Host your diagrams at GitHub. The web pages are created dynamically when you view them, based on the spec held at GitHub. When you push to GitHub, you update your site.)
 #Jump( snippet \Diamond Snippet
 # \Diamond Snippet
 Include diagrams using this snippet)
@@ -79,6 +76,9 @@ The markdown used with Scorpio Diagrams)
 #Jump( scorpio_md_table \Diamond Markdown Summary
 # \Diamond Markdown Summary
 Summary of the markdown)
+#Jump( gitwrapping \Diamond GitWrapped Docs
+# \Diamond GitWrapped Docs
+Host your documents with interactive diagrams at GitHub. The web pages and interactions are created dynamically when you view them, based on the spec held at GitHub. When you push to GitHub, you update your site.)
 ----
 ### Future Plans
 #Jump( dev_for_wikipedia \UFO Wikipedia
@@ -95,15 +95,15 @@ Some of the design for the future. This is mainly a mindmap that you can hover o
 #Jump( centaurs;front_page \Diamond Centaurs
 # \Diamond Centaurs Repo
 A dangerous future with human-AI combinations. The Center for Safer Centaurs, working to rescue the future.)
-#Jump( datascience;autoencoder \Diamond Datascience
+#Jump( datascience;shake_the_box \Diamond Datascience
 # \Diamond Datascience Repo
 Datascience explainers - relating machine learning to statistics, optimisation, classical mechanics and coding theory.)
-#Jump( sicm;preface \Diamond SICM Book
+#Jump( sicm;chapter001 \Diamond SICM Book
 # \Diamond SICM - The Book
 Structure and Interpretaion of Classical Mechanics.
 Book by *Gerald Jay Sussman* and *Jack Wisdom*
 )
-#Jump( fdg;preface \Diamond FDG Book
+#Jump( fdg;chapter001 \Diamond FDG Book
 # \Diamond FDG Book
 Functional Differential Geometry.
 Book by *Gerald Jay Sussman* and *Jack Wisdom*)
@@ -113,7 +113,7 @@ This repo, with documentation on the Scorpio diagrams software)
 #Jump( scorpio_dev;dev_docs \Diamond Scorpio Dev
 # \Diamond Scorpio Development
 New features under development)
-#Jump( slush;index \Slush Slush
+#Jump( slush;water \Slush Slush
 # \Slush Slush Repo
 Slush pile. All that text and those diagrams that are on the way out. This link is not available on-line. Only available in offline content-development mode.)
 
