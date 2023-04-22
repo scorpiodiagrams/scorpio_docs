@@ -3,7 +3,7 @@
 
 You create a link between two named labels with the #Code(:link:) command. You can also create a link implicitly by placing the labels in a [hierarchy](scorpio_connections).  
 
-###Wide and narrow lines
+### Wide and narrow lines
 
 If you don't specify any style for a link, Scorpio will use a default style:
 !!Raw
@@ -22,7 +22,7 @@ Scorpio has #Code(:Wide:) lines and #Code(:Narrow:) lines. They behave very simi
 
 Click on any example to edit.  You can try out adding arrow heads and other effects.
 
-###Links with default styling
+### Links with default styling
 
 When you create a link between two labels with the #Code(:link:) command, and no additional styling for that link, the result might look like this:
 
@@ -38,7 +38,7 @@ boxed: plain
 :B: at: 300,27
 !!Markdown
 
-###Change the appearance
+### Change the appearance
 At the same time as adding the link, you can style it.  Here is how to style it as an arrow:
 !!Raw
 link: A B -->
@@ -192,7 +192,7 @@ boxed: plain
 :B: at: 410,20
 !!Markdown
 
-###Text Positioning
+### Text Positioning
 
 The examples with text so far have shown text placed directly on the line. If you have an even number of text lines, Scorpio will position half the lines above and half below:
 !!Raw
