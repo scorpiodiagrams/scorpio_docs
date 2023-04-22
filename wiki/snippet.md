@@ -1,4 +1,4 @@
-##HTML Snippet
+## HTML Snippet
 
 The HTML snippet is similar in style to [Google charts](https://developers.google.com/chart/interactive/docs/quick_start).  The snippet shows how to call Scorpio to make a chart. 
 

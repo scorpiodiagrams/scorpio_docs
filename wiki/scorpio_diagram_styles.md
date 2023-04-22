@@ -22,7 +22,7 @@ You can find additional examples on the [More Examples](more_examples) page.
 )End#
 
 
-###Main diagram types
+### Main diagram types
 > #Code(##Mindmap) - A style with curved, tapered, colourful connection lines, and colourful labels, with 3D-bevel border.
 !!Scorpio
 ##MindMap
@@ -72,7 +72,7 @@ link: E A
 multiplicity: 1
 !!Markdown
 
-###Other diagram types
+### Other diagram types
 These are some more diagram types:
 > #Code(##LineArt) - A black-on-white style suited for electronics and category theory diagrams.
 !!Scorpio

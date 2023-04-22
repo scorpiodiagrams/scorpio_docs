@@ -222,5 +222,6 @@ boxed: plain
 ----
 ### Footnotes
 
-#FootnoteRef(1) Wide lines can have outlines and can vary in width. Narrow lines are a fixed width. When you use custom end shapes and have multiple lines, the narrow lines add one end shape in total, whereas the wide lines add one end shape for each line.
+### %Footnote(1)
+Wide lines can have outlines and can vary in width. Narrow lines are a fixed width. When you use custom end shapes and have multiple lines, the narrow lines add one end shape in total, whereas the wide lines add one end shape for each line.
 

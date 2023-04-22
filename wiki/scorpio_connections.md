@@ -1,6 +1,6 @@
 !!Polyglot
-##Connections
-###Things Connected to Things
+## Connections
+### Things Connected to Things
 Scorpio is well suited for diagrams of 'things connected to things'. In these 'things connected to things' diagrams you can drag the things about and they stay connected.
 
 A range of shapes for the things and for their connections gives a lot of flexibility in what Scorpio diagrams can show.  You can use the 'connections diagrams' for:
@@ -10,7 +10,7 @@ A range of shapes for the things and for their connections gives a lot of flexib
 * Annotations to diagrams
 * Chemical structures
 
-##Labels and Links
+## Labels and Links
 Scorpio has Labels and Links. 
 * Labels are the things that you place and can move around.
 * Links are the connections betwen them.
@@ -108,7 +108,7 @@ Notice that the text updates to show the new position information.  The position
 > [!info]- Adding a Link
 You can add in additional links, using the #Code(link:) command.
 
-###Add more links
+### Add more links
 Add a link between #Code(D) (burger#) and #Code(H) (bread#) like so:
 ```Raw
 **Link to previous diagram!**
@@ -163,7 +163,7 @@ boxed: 150
 background: Gray252.png
 :info:
 card:
-##Femur
+## Femur
 The illustration of the femur is from the 1918 edition of Gray's anatomy, and is in the public domain.
 !!Markdown
 

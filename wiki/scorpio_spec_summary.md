@@ -26,7 +26,7 @@ The diagram styles from #Code(##Molecule) onwards use thin connecting lines.  Th
 
 #Button(scorpio_diagram_styles, Diagram Styles) - Styles for Scorpio diagrams, with examples of how they look.
 
-##Objects and names
+## Objects and names
 
 Objects in Scorpio include
 
@@ -41,7 +41,7 @@ Each object has an optional #Code(label:) and an optional #Code(card:).  The #Co
 
 In Scorpio labels are given names sequentially, #Code(A), #Code(B), #Code(C)....  then #Code(AA), #Code(AB), #Code(AC)...  and so on.  You don't have to manually give the labels names, Scorpio will do so.  If Scorpio works with a spec file it will add the names in for you.
 
-##End Shapes
+## End Shapes
 
 You can specify the shape of a label using end shapes
 
@@ -69,7 +69,7 @@ There are also some stacked ends
 
 #Button(scorpio_label_styles, Labels) - End shapes for labels, with examples of how they look.
 
-##Label Modifiers
+## Label Modifiers
 
 #Example(
 * #Code(:Height4:) - Makes the label '4 lines' high.
@@ -77,7 +77,7 @@ There are also some stacked ends
 * #Code(:Pad3:) - Expands the label by 3 relative to its minimum size.
 )End#
 
-##Line Types
+## Line Types
 
 #Example(
 * #Code(--) - for a normal single line (this is the default for LineArt)
@@ -92,7 +92,7 @@ End shapes work for the ends of lines in much the same way as they do for labels
 
 #Button(scorpio_link_styles,Links) - The styles for the lines, with visual examples.
 
-##Label Text
+## Label Text
 
 Sometimes, when Scorpio might get confused about what the actual text of the label is, you will put the text inside quotation marks "", with the end shapes, label modifiers and line type indicators outside the quotes.
 
@@ -103,7 +103,7 @@ There are some special characters:
 * #Code(\\) - puts a \ in the label, without treating the next character as special
 )End#
 
-##Info Cards
+## Info Cards
 
 Cards provide additional information on a label, using a large tooltip off to one side of the diagram.  
 
@@ -409,7 +409,7 @@ These are direct substitutions
 \zeta - ζ
 ```
 !!Markdown
-##Other commands and attributes
+## Other commands and attributes
 
 Other commands work the same way as #Code(card:).
 
@@ -426,7 +426,7 @@ Other commands work the same way as #Code(card:).
 
 Some of the restrictions as to what combinations work will be #Rock(fixed in the future.  For example, in the future I may allow #Code(card:) to be applied to links and the labels on the links, and not just to #Code(label)s.  )
 
-##Selectors
+## Selectors
 
 To select the link between A and B, use 
 #Example(

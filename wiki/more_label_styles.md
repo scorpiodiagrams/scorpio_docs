@@ -36,7 +36,7 @@ boxed: plain
 :A: at: 150,27
 !!Markdown
 
-##Bonus: Additional Large Shapes
+## Bonus: Additional Large Shapes
 You can get some other useful shapes using variations on the #Code(:Height4:) technique.  You can create triangular, hexagonal and 'logic-gate' shapes.  
 
 However, Scorpio is not yet smart enough about calculating how the text should fit in so unlike the previous large shaped tiles, these examples have bodges to make them work. 
@@ -72,7 +72,7 @@ boxed: 150
 :A: at: 150,77
 !!Markdown
 
-##Fancy ends
+## Fancy ends
 These are some other custom end shapes:
 !!Raw
 :snake_tail:"snake ends":snake_head:

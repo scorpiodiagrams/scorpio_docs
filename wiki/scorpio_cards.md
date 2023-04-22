@@ -15,7 +15,7 @@ caption: Info cards shown on hover
 background: VisibleWaterSmall.png
 :A:
 card:
-##Info Cards
+## Info Cards
 > Most of the iceberg is below the waterline
 Scorpio can show info cards, like this one.  The cards stay out of the way, well away from the place where you hover.
 :B:
@@ -25,7 +25,7 @@ card:
 This card gets shown on the other side from the first one.
 :info:
 card:
-##Scorpio Info Cards
+## Scorpio Info Cards
 Each diagram has an info button in the top left.  This typically has general information about the diagram, including some copyright information.
  *Credits: &copy; James Crook 2023.*
 !!Polyglot
@@ -47,15 +47,15 @@ caption: Info cards shown on hover
 background: LightningArt.png
 :A:
 card:
-##🧲[Maxwell's Equations](maxwells_equations)⚡
+## 🧲[Maxwell's Equations](maxwells_equations)⚡
 Maxwell's equations are differential equations that describe electromagnetism. This [link](maxwells_equations) takes you to Wikipedia for more information.
 :B:
 card:
-##🛡[Immunology](immunology)
+## 🛡[Immunology](immunology)
 Immunology is about how the body defends against pathogens.  This [link](immunology) takes you to Wikipedia for more information.
 :info:
 card:
-##Scorpio Info Cards
+## Scorpio Info Cards
 Each diagram has an info button in the top left.  This typically has general information about the diagram, including some copyright information.
  *Credits: &copy; James Crook 2023.*
 !!Markdown

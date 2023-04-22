@@ -1,6 +1,6 @@
 #ScorpioHead(27 February 2023, Download Diagrams)
 !!Polyglot
-##Downloads
+## Downloads
 
 For downloading diagrams you've created, open the #Code(Details) panel ([it's below the diagram](scorpio_details_panel)) and then click on #Code(Download).  
 

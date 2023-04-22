@@ -41,7 +41,7 @@ boxed: 100
 :C: at: 179,81
 !!Markdown
 
-##Quoting, Emoji, \n
+## Quoting, Emoji, \n
 
 > Quotes around the text of the label can help Scorpio know what is part of the label text and what is part of the label shape.  Use quotes around the text of the label to make it clear.
 
@@ -103,7 +103,7 @@ boxed: 140
 There are some additional shapes on the 'more label styles' page.
 #Right([more label styles](more_label_styles))
 
-##Long and Short form
+## Long and Short form
 All the short form end shapes also have a long form version.  These are equivalent:
 
 * #Code(&#40;) - #Code(:round:)
@@ -116,7 +116,7 @@ All the short form end shapes also have a long form version.  These are equivale
 
 For the flipped versions of simple shapes, add #Code(Flip) to the name, so #Code(:chevronFlip:) will give #Code(&gt;) rather than #Code(&lt;).
 
-##Round, Square and Diamond Labels
+## Round, Square and Diamond Labels
 You already have seen the syntax for doing small round, square and diamond shaped labels:
 !!Raw
 (a)

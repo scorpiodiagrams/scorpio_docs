@@ -34,5 +34,3 @@ The label end-styles are accomplished using SVG snippets. I would like to expose
 Scorpio diagrams aims to work with large complex diagrams, not just small hand crafted ones.  Currently the system for selecting and styling lines is too labour intensive for larger diagrams.
 
 > #UFO(I plan that in a future Scorpio you will be able to style lines based on what they represent.  So for example you'll be able to dynamically highlight a particular path through a large network.  That's future work and needs more design.)
-
-I plan to combine the narrow and wide line systems, to put them on the same footing.

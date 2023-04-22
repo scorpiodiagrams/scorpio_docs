@@ -1,4 +1,4 @@
-##More Link Styles
+## More Link Styles
 
 The default #Code(##MindMap) [diagram style](scorpio_diagram_styles) has colourful lines that vary in width.  A link between labels A and B could look like this:
 !!Scorpio
@@ -11,7 +11,7 @@ boxed: plain
 !!Markdown
 
 
-###Change the appearance
+### Change the appearance
 These links can be styled.  Here is how to style the link as a curved snake with text on it:
 !!Raw
 link: A B :snake_tail:-->"I am a snake!">--:snake_head:
@@ -34,7 +34,7 @@ One problem with #Code(##MindMap) is that the ends like #Code(:chevron:) and #Co
 
 In the above example I'm using the #Code(##Sankey) style which has faint labels that almost vanish, so that you can see the end shapes.
 
-###Hiding labels
+### Hiding labels
 An alternative to #Code(##Sankey)'s near invisible labels is to use the #Code(hide:) command to hide labels.  Here's an arrow, done with #Code(##MindMap) style and hiding both of the labels.
 
 !!Raw
