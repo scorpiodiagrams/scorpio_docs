@@ -1,10 +1,9 @@
-#More Label Styles
-
-##Bonus: Vertical Stacking
-
+!!Polyglot
+# More Label Styles
+## Bonus: Vertical Stacking
 Some end types can be added together to stack vertically.  
 
-These examples are special built in patterns rather like the :snake_head: pattern. #UFO(I plan in time to make the end-type stacking general.)
+These examples are special built in patterns#Footnote(1) rather like the #Code(:snake_head:) pattern. 
 
 In the examples below, stacking has been used to make "zig zag" ends and "sway" ends that curve back and forth. 
 !!Raw
@@ -89,5 +88,9 @@ boxed: 100
 :A: :cold_front:"meterology":warm_front:
 boxed: plain
 :A: at: 150,27
-!!Markdown
-&nbsp;
+!!Polyglot
+----
+### Footnotes
+
+### %Footnote(1)
+\UFO I plan in time to make the end-type stacking general.
