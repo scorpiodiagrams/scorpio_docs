@@ -27,11 +27,12 @@ caption: Example
 link: A B :snake_tail:-->"I am a snake!">--:snake_head:
 bend: 15
 !!Markdown
-All the usual end shapes work for the ends of the link.  
+All the usual end shapes work for the ends of the link. 
 
-The problem with #Code(##MindMap) is that ends like #Code(:chevron:) and #Code(:straight:), or their short equivalents #Code(>) and #Code([), will usually be obscured by a label.
 
-In this example I'm using the still experimental #Code(##Sankey) style which has labels that almost vanish, so that you can see the end shapes.
+One problem with #Code(##MindMap) is that the ends like #Code(:chevron:) and #Code(:straight:), or their short equivalents #Code(>) and #Code([), are mostly obscured by the label.
+
+In the above example I'm using the #Code(##Sankey) style which has faint labels that almost vanish, so that you can see the end shapes.
 
 ###Hiding labels
 An alternative to #Code(##Sankey)'s near invisible labels is to use the #Code(hide:) command to hide labels.  Here's an arrow, done with #Code(##MindMap) style and hiding both of the labels.
@@ -54,10 +55,37 @@ bend: 15
 :A:B:
 hide:
 !!Markdown
+### More styling commands
 
-###Sizing labels
+Whilst #Code(~) and #Code(==) are convenient for wiggly and doubled links, they aren't very flexible. The texty versions give more control: 
+#Example(
+>  multiplicity: 3 - to set 3 (or some other number) of links<br> wiggle: 7 3     - to set amplitude 7 and wavelength 3
+)End# 
+Here's an example with #Code(bend), #Code(multiplicity) and #Code(wiggle)
 
-Size and colour can be changed using the #Code(size:) command and the #Code(level:) command applied to the labels.
+!!Raw
+link: A B --
+bend: 15
+multiplicity: 3
+wiggle: 7 3
+!!Scorpio
+##MindMap
+boxed: 100
+caption: Example
+**:A: A
+***:B: B
+:A: at: 80,80
+:B: at: 413,17
+link: A B ~~
+bend: 15
+multiplicity: 3
+!!Markdown
+
+
+### Size and Colour
+Each diagram style has default size and colour for each level in the hirearchy. That is why the colourful lines in #Code(#MindMap) style vary in colour and width.
+
+Size of a label can be changed using the #Code(size:) command and colour using the #Code(level:) command. These are applied to the labels.
 
 !!Raw
 :A: A
@@ -89,10 +117,3 @@ level: 3
 link: A B >=-->"An arrow">--=>
 bend: 15
 !!Markdown
-
-###Doubled and Squiggly lines
-
-The squiggly line style and the doubled (trebled and higher multiplicity) lines only work with the narrow lines currently.  Also the wide Sankey lines can only accept one end shape at each end, whereas the narrow lines can have multiple arrow heads and arrow tails.
-
-* #Button(scorpio_link_styles,Squiggly Lines) - Styling for the narrow lines
-* #Button(scorpio_spec_summary,Summary) - Summary of commands
