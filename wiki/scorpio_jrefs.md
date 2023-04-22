@@ -2,6 +2,7 @@
 ## To Reference parts of a JaTeX Formula...
 The JaTeX formula is written as normal for JaTeX. The spec below additional has two #Code(jrefs). These state the part of the formula to refer to, and name it with a letter, #Code(D) and #Code(E) in this case. The letter can then be used just like the name of a label, so it can be used ot specify the end point of a #Code(link:).
 !!Raw
+
 $$\nabla \times \mathbf{F} = \frac{i}{c}\left( \frac{\partial \mathbf{F}}{\partial t} + H_2 O + 4\pi\mathbf{J} \right) \\\ \in \ \mathbb{Z\supsub 0 1}
 jref:D: {F}
 jref:E: \nabla \times

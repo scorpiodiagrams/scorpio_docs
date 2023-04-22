@@ -6,6 +6,7 @@ Here a JaTeX label with #Code(\transistor) in it is used for components of a cir
 
 !!Scorpio
 ##TheStandardStyle
+
 $$\resistor + \capacitor + \transistor
 boxed: 65
 :A: at: 60,15
@@ -15,6 +16,7 @@ The #Code(\twisty) notation can be used to show permutations graphically.
 !!Scorpio
 ##TheStandardStyle
 boxed: 50
+
 $$\twisty ijk \twisty jki \twisty kij \twisty kji \twisty jik \twisty ikj
 :A: at: 60,15
 !!Markdown

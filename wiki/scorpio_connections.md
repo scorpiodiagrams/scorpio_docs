@@ -200,10 +200,15 @@ caption: Melatonin
 boxed: 250
 !!Polyglot
 ----
+
 #FootnoteRef(1) You can see and then edit the text specification by draging on one of the labels to move the label. The spec will then appear.
+
 #FootnoteRef(2) When Scorpio runs out of letters A to Z, it moves on to AA, BA, CA and so on.
+
 #FootnoteRef(3) Other styles can be found [here](scorpio_diagram_styles).
+
 #FootnoteRef(4) Proper support for SMILES is a feature under development. You can find out more about progress on it by following the link below to the development documentation.
 #Right(\Rock [SMILES](scorpio_dev;dev_smiles))
+
 #FootnoteEnd
 &nbsp;

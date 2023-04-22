@@ -5,9 +5,11 @@ JaTeX is a playful variation on ideas from the maths typesetting language, LaTeX
 To use JaTeX format for a label, start the label with #Code($$).
 Here is a made up formula that mixes some chemistry in with the maths.
 !!Raw
+
 $$\nabla \times \mathbf{F} = \frac{i}{c}\left( \frac{\partial \mathbf{F}}{\partial t} + H\sub 2 O + 4\pi\mathbf{J} \right) \in \mathbb{Z\supsub 0 1}
 !!Scorpio
 ##TheStandardStyle
+
 $$\nabla \times \mathbf{F} = \frac{i}{c}\left( \frac{\partial \mathbf{F}}{\partial t} + H\sub 2 O + 4\pi\mathbf{J} \right) \\ \in \ \mathbb{Z\supsub 0 1}
 boxed: 80
 :A: at: 60,15
@@ -45,9 +47,11 @@ You can use emoji in the JaTeX and there are also some bonus symbols. These will
 * #Code(\rookw \knightw \bishopw \queenw \kingw \pawnw) - additional symbols
 )End#
 !!Raw
+
 $$\radioactive + \dna \chemequal \mathbig \biohazard
 !!Scorpio
 ##TheStandardStyle
+
 $$\radioactive + \dna \chemequal \mathbig \biohazard
 boxed: 60
 :A: at: 60,15
@@ -57,9 +61,11 @@ These additional symbols are 'drawn' rather than coming from a font, so they wil
 * #Code(\transistor), #Code(\resistor) and #Code(\capacitor) - for electrical symbols.
 )End#
 !!Raw
+
 $$\resistor + \capacitor + \transistor
 !!Scorpio
 ##TheStandardStyle
+
 $$\resistor + \capacitor + \transistor
 boxed: 65
 :A: at: 60,15
@@ -69,9 +75,11 @@ boxed: 65
 ## End Shapes
 The label end-shapes from Scorpio work within JaTeX, with almost no changes. The end shapes are given first, and there is an optional colour argument.
 !!Raw
+
 $$\tile ( ( round \\ \tile #252 < < chevron \\\\\\ \tile snake-tail arrow-head {snake \ arrow}
 !!Scorpio
 ##TheStandardStyle
+
 $$\tile ( ( round \\\\\\ \tile #252 < < chevron \\\\\\\\\ \tile snake_tail arrow_head {snake \ arrow}
 boxed: 50
 :A: at: 60,15
@@ -98,28 +106,34 @@ boxed: 50
 ## Permutations
 The #Code(\twisty) notation can be used to show permutations graphically.
 !!Raw
+
 $$\twisty ijk \twisty jki \twisty kij \twisty kji \twisty jik \twisty ikj
 !!Scorpio
 ##TheStandardStyle
 boxed: 50
+
 $$\twisty ijk \twisty jki \twisty kij \twisty kji \twisty jik \twisty ikj
 :A: at: 60,15
 !!Markdown
 The #Code(twisty) has a more extended syntax which allows for specifying the top and bottom row, e.g. #Code(\twisty ijlk-kilj). In this format you can place a #Code(.) (or a letter not used on the other row) to leave a gap. Use #Code(\twisty -kilj) for a contravariant tensor. This will give you the opposite permutation to #Code(\twisty kilj).
 !!Raw
+
 $$\twisty i.jk-ij.k \twisty lkij-kijl \ \ \twisty ikj-jpi
 !!Scorpio
 ##TheStandardStyle
 boxed: 50
+
 $$\twisty i.jk-ij.k \ \ \twisty lkij-kijl \ \ \twisty ikj-jpi
 :A: at: 60,15
 !!Markdown
 You can also add symmetrising and anti-symmetrising bars using the #Code([]) and #Code((#CloseBrace) notation. A #Code(\twisty -i[jk]l) will put the bar across the #Code(j) and #Code(k) and at the bottom.
 !!Raw
+
 $$\twisty k[ji] \ \ \twisty -j[ik]
 !!Scorpio
 ##TheStandardStyle
 boxed: 50
+
 $$\twisty k[ji] \ \ \twisty -j[ik]
 :A: at: 60,15
 !!Markdown
