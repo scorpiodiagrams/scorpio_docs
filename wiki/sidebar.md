@@ -86,7 +86,9 @@ Host your documents with interactive diagrams at GitHub. The web pages and inter
 An aspiration to provide diagrams for Wikipedia)
 #Jump( dev_for_learning \UFO Edu-Tech
 # \UFO Technology for Learning
-Scorpio is technology for education. It's designed for making diagrams and for organising information. Some of the software in Scorpio can be used in educational games to make interactive content.)
+Scorpio is technology for education. It's designed for making diagrams and for organising information. 
+
+I plan in the future to widen the technology, to use it in new collaborative learning groups and in educational games.)
 #Jump( blueprints \UFO Blueprints
 # \UFO Blueprints
 Some of the design for the future. This is mainly a mindmap that you can hover over for more details of the different pieces shown.)

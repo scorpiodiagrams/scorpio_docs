@@ -68,7 +68,6 @@ Scorpio info cards are a similar feature to the preview 'tips' in Wikipedia, Obs
 Some ways Scorpio info cards differ:
 * They work on diagrams and images, not just on text. 
 * Rather than be right next to the mouse pointer, they are kept some distance away, so as not to cover where you are mousing over.
-* Scorpio avoids a clutter of info cards when info cards have info cards, by updating the card rather than showing more than one at once.
 * Scorpio's info cards use 'optical stability' to reduce the amount of flicker and 'jumping about' when you mouse-over different things. It's in how they move and the timing of how they change.
 These are small changes that make the info cards more usable.)
 

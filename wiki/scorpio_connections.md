@@ -1,9 +1,9 @@
 !!Polyglot
 ## Connections
 ### Things Connected to Things
-Scorpio is well suited for diagrams of 'things connected to things'. In these 'things connected to things' diagrams you can drag the things about and they stay connected.
+Scorpio is well suited for diagrams of 'things connected to things'. In these diagrams you can drag the things about and they will stay connected.
 
-A range of shapes for the things and for their connections gives a lot of flexibility in what Scorpio diagrams can show.  You can use the 'connections diagrams' for:
+You can use the 'connections diagrams' for:
 
 * Mind maps
 * Flowcharts
@@ -11,16 +11,16 @@ A range of shapes for the things and for their connections gives a lot of flexib
 * Chemical structures
 
 ## Labels and Links
-Scorpio has Labels and Links. 
-* Labels are the things that you place and can move around.
-* Links are the connections betwen them.
+In Scorpio the 'things' are 'Labels' and the connections between the things are 'Links'. 
+* Labels - things that you place and can move around.
+* Links - the connections betwen them.
 
-A text specification#Footnote(1) tells Scorpio what the labels are, how they are connected to each other, how to position things and how the diagram, labels and links are styled.
+You provide a textual specification#Footnote(1) to Scorpio. The spec tells Scorpio what the labels are, how they are connected, how to position them and how you want Scorpio to style the parts.
 
-Scorpio will give letters A to Z#Footnote(2) to the labels. When you drag labels around on the diagram, Scorpio will update the text specification to match. If you delete or add labels, Scorpio will update the letters and numbers so that the right things stay linked.
+Scorpio will give letters A to Z#Footnote(2) to the labels. When you drag labels around on the diagram, Scorpio will update the text specification to match. If you delete or add labels, Scorpio will update the letters and numbers so that the right things stay connected.
 
 ## Mind Maps
-Many layouts have a hierarchical tree like structure.  You can specify a tree structure by listing the items.  Here's an example of a list that has different foods grouped together to make a hierarchy.
+You can specify a tree structure by listing the items.  Here's an example of a list that has different foods grouped together to make a hierarchy. Each item becomes a label.
 !!Raw
 * Foods
 ** High Fat
@@ -35,10 +35,10 @@ Many layouts have a hierarchical tree like structure.  You can specify a tree st
 *** Honey
 *** Chocolate
 !!Polyglot
-Scorpio will add letters in for the labels when you drag one of them on the diagram.
-!!Markdown
-The diagram below is in the '#Code(##MindMap)' style#Footnote(3):
+Scorpio will add letters in for the labels. You will see this happen when you drag one of the labels on the diagram.
 
+The diagram below is in the '#Code(##MindMap)' style#Footnote(3):
+!!Markdown
 > #Code(##MindMap) - A colourful style for mind-map trees. 
 
 Here's that list presented as a tree-like MindMap diagram.  This diagram is specified by the list above.  The list specifies the labels and their links. You then drag the labels into position.  

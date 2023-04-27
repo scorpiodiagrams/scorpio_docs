@@ -1,5 +1,5 @@
 !!Polyglot
-## \UFO Diagrams for Wikipedia
+## Diagrams for Wikipedia
 I intend that the interactive diagrams of Scorpio will be used in some form by Wikipedia.
 
 I hope these diagrams will in time help to transform Wikipedia from an encyclopedic collection of knowledge into a map of knowledge with learning paths through it to explore.

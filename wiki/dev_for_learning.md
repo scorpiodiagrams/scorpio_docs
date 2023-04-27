@@ -1,5 +1,5 @@
 !!Polyglot
-## \UFO Technology for Learning
+## Technology for Learning
 Scorpio diagrams, I hope, will help transform Wikipidea from 'merely' an encyclopedia into a resource for active learning. 
 
 Educational games can help with learning too.

@@ -1,4 +1,7 @@
-# #UFO(&nbsp) Plans and Blueprints 
+!!Polyglot
+!+[[./images/UfoBlueprint.png]]
+ #Caption Blueprint for a UFO. I use the UFO symbol 🛸 for far future plans. 🚀is for future plans that will arrive sooner.
+# Plans and Blueprints 
 ## Scorpio Features Mind Map
 This diagram shows how closely the various features of Scorpio are *or will be* related to each other. My idea is to make things be of the same kind, so that they become more composable. 
 
@@ -14,7 +17,7 @@ Fields - have a value for every point on their image
 Shape Modifiers - modify the outlines of shapes
 !!Markdown
 
-### Development
+### Graphical Elements
 I am writing code to bring different kinds of graphical element into the system. For example chemical structures initially in SMILES format (a standard concise format for molecules) become general graphs. Atoms connected by bonds *are* labels connected by links. Code to edit things connected to things becomes able to edit molecules.
 
 Menus, as in a program, are commands organised as a tree. If I have a display format for labels that makes them suitable as menu items, the software to edit trees of things connected to things can edit menus.
