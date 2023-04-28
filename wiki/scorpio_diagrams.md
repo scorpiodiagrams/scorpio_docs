@@ -16,7 +16,7 @@ Info Cards are information boxes like this one that appear over your text or dia
 )
 #### **What features does it have?** 
 * You can annotate diagrams. Use pop-up #TipLink(scorpio_cards,information cards) that show more information. Use the diagrams to organise information.
-* The diagrams have modifiable automated layout. Modify the diagram by dragging its pieces into position. The text spec will be kept in sync.
+* The diagrams have modifiable automated layout. Modify the layout by dragging parts of the diagram into position. The text spec will be kept in sync.
 * Scorpio Diagrams supports JaTeX, a LaTeX-like syntax for equations and diagrams. Make *and annotate* maths, chemical equations, genome structure, railway-diagrams, data science diagrams, mind-maps and numerous other kinds of graphic.
 ----
 !!Scorpio
@@ -34,7 +34,7 @@ Info Cards are information boxes like this one that appear over your text or dia
 
 Information-rich diagrams in biochemistry, electronics and computing present information that can be explored visually, but they can be labour intensive to make.  
 
-If we make families of related diagrams, this reduces the overall work in making them. It is also good for consistency. Tools to make such diagrams make them easier to make and help the diagrams look and behave in a consistent way.
+If we make families of related diagrams, this reduces the overall work in making them. It is also good for consistency. Software can help. We can create many diagrams more easily if there are good software tools, and they will look and behave in a consistent way.
 
 ### More about 'How'
 
