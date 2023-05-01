@@ -1,6 +1,6 @@
 !!Scorpio
 ##Annotated
-caption: The Cell Wall (Revision)
+caption: The Cell Wall (Revision#)
 :A: Lipid\nBilayer
 *:B: :Height5:Width6:[ ]
 :C: (Channel\nProtein)

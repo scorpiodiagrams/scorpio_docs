@@ -51,8 +51,8 @@ Maths formulae in Scorpio)
 #Jump( scorpio_jrefs \Diamond  JRefs
 # \Diamond JRefs
 Referencing the parts of a JaTeX formula)
-#Jump( scorpio_spec_summary \Diamond Summary
-# \Diamond Summary
+#Jump( scorpio_spec_reference \Diamond Reference
+# \Diamond Reference
 List of all commands)
 ----
 ### Resources
@@ -73,9 +73,9 @@ Additional editable diagrams, as examples)
 #Jump( scorpio_md_overview \Diamond Markdown Overview
 # \Diamond Markdown Overview
 The markdown used with Scorpio Diagrams)
-#Jump( scorpio_md_table \Diamond Markdown Summary
-# \Diamond Markdown Summary
-Summary of the markdown)
+#Jump( scorpio_md_table \Diamond Markdown Reference
+# \Diamond Markdown Reference
+Reference of the markdown)
 #Jump( gitwrapping \Diamond GitWrapped Docs
 # \Diamond GitWrapped Docs
 Host your documents with interactive diagrams at GitHub. The web pages and interactions are created dynamically when you view them, based on the spec held at GitHub. When you push to GitHub, you update your site.)

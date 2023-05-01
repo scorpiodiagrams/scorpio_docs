@@ -1,10 +1,10 @@
 ### Details Panel
 
-The larger Scorpio diagrams have a #Code(Details) panel below them.
+The larger Scorpio diagrams have a drop-down details panel below them. A clickable triangular icon beside the diagram's caption controls whether the panel is hidden or shown. 
 
 This panel has a list of all the hotspot zones in the diagram, so you can see where to click.  It also has buttons to customise the diagram and to edit it, if editing is enabled.
 
-Beside the caption of the diagram, click on the '+ details' button to reveal the panel.  
+Click on the triangular icon, or in fact anywhere on the caption of the diagram, to reveal the panel.
 
 !+[Details](./images/details.png =550px)
 

@@ -1,6 +1,6 @@
-#Summary
+# Reference
 ### for diagram spec
-A summary of the Scorpio diagram specification.
+A reference for the Scorpio diagram specification.
 
 ## Diagram Style
 

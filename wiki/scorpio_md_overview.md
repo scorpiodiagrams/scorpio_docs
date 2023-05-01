@@ -1,9 +1,9 @@
 !!Polyglot
 ## Overview of Markdown
 
-Scorpio diagrams are embedded in a fairly standard markdown processing system. 
+Scorpio diagrams are embedded in a fairly standard markdown document processing system. 
 
-The markdown used is broadly compatible with Obsidian. The diagrams are included into the markdown. The Markdown is also used within [info cards](scorpio_cards) to specify the text on the cards.
+The markdown used is broadly compatible with GitHub and Obsidian. The diagrams are included into the markdown. The Markdown is also used within [info cards](scorpio_cards) to specify the text on the cards.
 
 Many extension commands start with #Hash.
 

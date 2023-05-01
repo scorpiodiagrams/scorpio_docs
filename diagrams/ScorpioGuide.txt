@@ -47,7 +47,9 @@ This chart shows the various graphic elements that make up Scorpio Diagrams.
 :B: at: 246,195
 card:
 ##Graphs
-The 'labels and links' description of certain diagrams in Scorpio is the same thing as a graph as in "Graph Theory".  These are directed graphs.  The edges have a direction.  The order of items at each node in the graph can be important too.
+Things connected to things, or labels and links, are the core of Scorpio. These structures are known as 'Graphs' in the mathematics of "Graph Theory".
+
+Scorpio graphs are directed graphs.  The edges (links) have a direction.  The order of items at each node in the graph can be important too. The graphs of 'Graph Theory' are like a skeleton of a diagram. Scorpio has many features for decorating the graphs, putting flesh on the bones of the diagrams.
 :C: at: 142,126
 card:
 ##general
@@ -188,7 +190,7 @@ I've implemented for a 2D canvas, using javascript, which is slow indeed compare
 :AF: at: 28,351
 card:
 ##🚀SDFs
-Signed Distance Fields are a technique used in drawing fonts.  Scorpio has limited support for them.  The support is based on NURBs.  I plan not to be strictly SDF but rather to use pseudo distances which are quicker to compute and still do what is required for collision detection and similar.
+Signed Distance Fields are a technique used in drawing fonts.  Scorpio has limited support for them.  The support is based on NURBs.  I plan not to be strictly SDF but rather to use pseudo distances which are quicker to compute or give better shape definition.
 :AG: at: 180,307
 card:
 ##🛸greebling to a field

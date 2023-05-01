@@ -62,8 +62,8 @@ Each diagram has an info button in the top left.  This typically has general inf
 If you move too slowly, the card will disappear. The intention is that info cards stay out of the way, that they provide additional information only for when you want to follow it.
 
 !!Polyglot
-> [!info]- Info Cards Elsewhere
-Scorpio info cards are a similar feature to the preview 'tips' in Wikipedia, Obsidian and Arbital. They are also related to the idea of a 'master-detail' display, where one panel gives detail on an overview. 
+> [!info]- Info Cards Elsewhere on the Internet
+Scorpio info cards are a similar feature to the preview tips in Wikipedia, Obsidian and Arbital. They are also related to the idea of a master-detail display, where one panel gives detail on an overview. 
 
 Some ways Scorpio info cards differ:
 * They work on diagrams and images, not just on text. 
@@ -74,13 +74,13 @@ These are small changes that make the info cards more usable.)
 > [!info]- The Info Button
 The diagrams have an info button that appears in the top left hand corner when you're hovered over the diagram. Hover over this info button for an additional info card with copyright information.)
 
-> [!info]- Info Cards use Markdown
+> [!info]- Including Cards with a Diagram
 
-### Syntax 
-Scorpio Diagrams uses different syntax for different parts of the diagrams. Instructions for making the diagram often have a '#Code(:)'' after them. Equations use JaTeX, a LaTeX like syntax. 
+### Syntax of Diagrams
+Scorpio Diagrams uses text instructions to specify a diagram. Instructions for making the diagram often have a '#Code(:)'' after them. Equations use JaTeX, a LaTeX like syntax. 
 
-### Syntax for Info Cards
-The diagram spec shown below has syntax for specifying two labels and a link between them. The info cards are specified at the end. The text of the cards is in Markdown format.
+### Info Cards use Markdown
+The diagram spec shown below has instructions for specifying two labels and a link between them. The info cards are specified at the end. The text of the cards is in Markdown format.
 ```Raw
 ##LineArt
 :A: London
@@ -119,5 +119,3 @@ Edinburgh is the capital of Scotland.
 !!Polyglot
 #Caption Fantasy Map #CaptionEnd
 The map above has labels on it that use Markdown for their info cards.
-
-Scorpio Markdown has a few extensions built in. For example `#HashWiki(` makes a hyperlink to Wikipedia.
