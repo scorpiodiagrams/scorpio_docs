@@ -2,7 +2,7 @@
 
 The documentation for Scorpio Diagrams and wiki software
 
-View these files converted to html and diagrams at [scorpio diagrams](http://scorpiodiagrams.com/gitwrapped.html#scorpio_docs)
+View these files converted to html and diagrams at [scorpio diagrams](http://scorpiodiagrams.com/gitwrapped.html#scorpio_docs;scorpio_diagrams)
 
 ## Sub directories
 
