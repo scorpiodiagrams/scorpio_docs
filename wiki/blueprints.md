@@ -7,8 +7,8 @@
 🚀 - for future plans that will arrive sooner.
 ⛵️ - old code that needs to be made seaworthy again
 ```
-## Scorpio Features Mind Map
-This mind-map shows how closely the various features of Scorpio are *or will be* related to each other. My idea is to make things be of the same kind, so that they become more composable. I reduce the amount of code I write and diagrams become easier to make.
+## Scorpio's Future Features
+This mind-map shows how closely the various features of Scorpio are *or will be* related to each other. My idea is to make many things that might seem to be different actually be of the same kind. Both arrows that connect things and bars on a bar chart are special kinds of line. They have the same choices of methods for making their end shapes, changing their colour and for placing markers on them. If I do this, I reduce the amount of code I write, the system as a whole becomes more adaptable and diagrams become easier to make.
 
 Hover over the items to find out more about each.
 !!Scorpio

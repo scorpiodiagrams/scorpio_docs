@@ -5,8 +5,8 @@ If you want to make documents with Scorpio diagrams and Scorpio's markdown, and 
 
 There is another way. It's called 'GitWrapping'. You use GitHub to store the documents and diagrams, and Scorpio to present the pages 'GitWrapped'.
 
-You place your specs at GitHub.  You then use [this link](gitwrapped.html) to view them, wrapped with the Scorpio JavaScript.  
-
+You place your specs at GitHub.  You then use [this link](gitwrapped.html#scorpio_dev;dev_docs?git=scorpiodiagrams) to view them, wrapped with the Scorpio JavaScript. Change 'scorpiodiagrams' in the url to your github user or organisation name and change 'scorpio_dev;dev_docs' to the repo and document you want to serve first.
+----
 Since GitHub supports markdown, you see at least an approximation to the eventual documents through the GitHub user interface.
 
 > In some ways this is similar to having GitHub run Jekyll for you to deploy a website.  You can build multiple connected pages with text formatted from markdown and multiple diagrams this way.
