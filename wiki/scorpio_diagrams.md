@@ -15,9 +15,9 @@ Use the #TipLink(diagram_forge,online forge) and copy and modify simple examples
 Info Cards are information boxes like this one that appear over your text or diagram.
 )
 #### **What features does it have?** 
-* You can annotate diagrams. Use pop-up #TipLink(scorpio_cards,information cards) that show more information. Use the diagrams to organise information.
-* The diagrams have modifiable automated layout. Modify the layout by dragging parts of the diagram into position. The text spec will be kept in sync.
-* Scorpio Diagrams supports JaTeX, a LaTeX-like syntax for equations and diagrams. Make *and annotate* maths, chemical equations, genome structure, railway-diagrams, data science diagrams, mind-maps and numerous other kinds of graphic.
+* **Annotations:** You can annotate diagrams. Use pop-up #TipLink(scorpio_cards,information cards) that show more information. Use the diagrams to organise information.
+* **Auto/Manual Layout:** You can modify the default layout by dragging parts of the diagram into position. The text spec will be kept in sync.
+* **JaTeX:** Diagrams support JaTeX, a LaTeX-like syntax for equations and diagrams. Make *and annotate* maths, chemical equations, genome structure, railway-diagrams, data science diagrams, mind-maps and numerous other kinds of graphic.
 ----
 !!Scorpio
 # Energy
