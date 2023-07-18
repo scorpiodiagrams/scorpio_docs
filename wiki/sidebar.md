@@ -53,15 +53,20 @@ Maths formulae in Scorpio)
 Referencing the parts of a JaTeX formula)
 #Jump( scorpio_spec_reference \Diamond Reference
 # \Diamond Reference
-List of all commands)
+List of all commands used in making diagrams in Scorpio)
 ----
 ### Resources
 #Jump( downloads \Diamond Downloads
 # \Diamond Downloads
-Where to get things from)
+Where to get things from:
+* `Snippets` - Your diagram, as html ready to embed.
+* `Diagram Spec` - The editable text of your diagram
+* `Image` - Just a screenshot of the diagram (not interactive#)
+* `GitHub Repo` - With all the source code
+)
 #Jump( snippet \Diamond Snippet
 # \Diamond Snippet
-Include diagrams using this snippet)
+Include diagrams on your website using this snippet)
 #Jump( community \Diamond Community
 # \Diamond Community
 Discussion groups and support)
@@ -72,13 +77,17 @@ Additional editable diagrams, as examples)
 ### Documents
 #Jump( scorpio_md_overview \Diamond Markdown Overview
 # \Diamond Markdown Overview
-The markdown used with Scorpio Diagrams)
+Scorpio Diagrams can be used 'as snippets' that just have the diagram, but usually the diagrams are in a larger document. These documents are made with Scorpio's flavour of markdown.
+
+This chapter is mostly about the extensions relative to standard markdown.)
 #Jump( scorpio_md_table \Diamond Markdown Reference
 # \Diamond Markdown Reference
-Reference of the markdown)
+Reference of the markdown. A tabular listing of the different kinds of items.)
 #Jump( gitwrapping \Diamond GitWrapped Docs
 # \Diamond GitWrapped Docs
-Host your documents with interactive diagrams at GitHub. The web pages and interactions are created dynamically when you view them, based on the spec held at GitHub. When you push to GitHub, you update your site.)
+Host your documents with interactive diagrams at GitHub. Then view them through a website that decorates them. The web pages and interactions are created dynamically when you view them, based on the spec held at GitHub. 
+
+Also, when you push to GitHub, you update your site immediately.)
 ----
 ### Future Plans
 #Jump( dev_for_wikipedia \UFO Wikipedia
