@@ -3,7 +3,6 @@
 A reference for the Scorpio diagram specification.
 
 ## Diagram Style
-
 Each diagram has a style, which determines how it is displayed.  For example Scorpio has a #Code(##LineArt) type, which displays in black and white figures.  The most gaudy is #Code(##Rainbow), which has rainbow colours and 3d effect on the labels.  The style is the first line in a diagram spec.
 
 #Example(
